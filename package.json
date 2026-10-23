@@ -1,0 +1,16 @@
+{
+  "name": "yukmok-online",
+  "version": "1.0.0",
+  "description": "육목(Connect6) 온라인 서버 - 1:1, 1:1:1 실시간 대전",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
